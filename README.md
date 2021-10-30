@@ -9,7 +9,7 @@
 
 ## **Soal**
 
-### **1. EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan       Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet**
+**1. EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan       Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet**
 
 **Solusi**
 ![messageImage_1635585422759](https://user-images.githubusercontent.com/73151866/139528104-cdabea1a-f176-4771-bd2d-09545fd9fc64.jpg)
@@ -25,7 +25,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635585475317](https://user-images.githubusercontent.com/73151866/139528154-a9bb466e-08e4-4d8c-9264-30b37177a934.jpg)
 
 
-**3.** Setelah itu buat subdomain super.franky.yyy.com dengan alias www.super.franky.yyy.com yang diatur DNS nya di EniesLobby dan mengarah ke Skypie
+**3. Setelah itu buat subdomain super.franky.yyy.com dengan alias www.super.franky.yyy.com yang diatur DNS nya di EniesLobby dan mengarah ke Skypie**
 
 **Solusi**
 
@@ -35,7 +35,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 
 
 
-**4.** Buat juga reverse domain untuk domain utama
+**4. Buat juga reverse domain untuk domain utama**
 
 **Solusi**
 
@@ -45,7 +45,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635585640005](https://user-images.githubusercontent.com/73151866/139528254-c040cbd7-b2b8-44fa-b3e4-e5df333c6151.jpg)
 
 
-**5.** Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama
+**5. Supaya tetap bisa menghubungi Franky jika server EniesLobby rusak, maka buat Water7 sebagai DNS Slave untuk domain utama**
 
 **Solusi**
 
@@ -53,7 +53,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635585727883](https://user-images.githubusercontent.com/73151866/139528281-ea1c21da-40d3-4238-a3d1-ebad692ffe17.jpg)
 
 
-**6.** Setelah itu terdapat subdomain mecha.franky.yyy.com dengan alias www.mecha.franky.yyy.com yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo
+**6.Setelah itu terdapat subdomain mecha.franky.yyy.com dengan alias www.mecha.franky.yyy.com yang didelegasikan dari EniesLobby ke Water7 dengan IP menuju ke Skypie dalam folder sunnygo**
 
 **Solusi**
 
@@ -63,7 +63,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635585984646](https://user-images.githubusercontent.com/73151866/139528313-ff41693b-bfe3-4e06-b491-a0ed3eded638.jpg)
 
 
-**7.** Untuk memperlancar komunikasi Luffy dan rekannya, dibuatkan subdomain melalui Water7 dengan nama general.mecha.franky.yyy.com dengan alias www.general.mecha.franky.yyy.com yang mengarah ke Skypie
+**7.Untuk memperlancar komunikasi Luffy dan rekannya, dibuatkan subdomain melalui Water7 dengan nama general.mecha.franky.yyy.com dengan alias www.general.mecha.franky.yyy.com yang mengarah ke Skypie**
 
 **Solusi**
 
@@ -72,7 +72,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586045481](https://user-images.githubusercontent.com/73151866/139528323-420cccfc-6d32-42e1-bbea-73225a476db7.jpg)
 
 
-**8.** Setelah melakukan konfigurasi server, maka dilakukan konfigurasi Webserver. Pertama dengan webserver www.franky.yyy.com. Pertama, luffy membutuhkan webserver dengan DocumentRoot pada /var/www/franky.yyy.com
+**8. Setelah melakukan konfigurasi server, maka dilakukan konfigurasi Webserver. Pertama dengan webserver www.franky.yyy.com. Pertama, luffy membutuhkan webserver dengan DocumentRoot pada /var/www/franky.yyy.com**
 
 **Solusi**
 
@@ -81,7 +81,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586126084](https://user-images.githubusercontent.com/73151866/139528331-81e207ed-9fa1-4d1a-9e33-a8a6ad1425f6.jpg)
 
 
-**9.** Setelah itu, Luffy juga membutuhkan agar url www.franky.yyy.com/index.php/home dapat menjadi menjadi www.franky.yyy.com/home
+**9. Setelah itu, Luffy juga membutuhkan agar url www.franky.yyy.com/index.php/home dapat menjadi menjadi www.franky.yyy.com/home**
 
 **Solusi**
 
@@ -89,7 +89,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![image](https://user-images.githubusercontent.com/73151866/139528480-dc08e0e1-5d78-4bb3-8b92-776d91676fb1.png)
 
 
-**10.** Setelah itu, pada subdomain www.super.franky.yyy.com, Luffy membutuhkan penyimpanan aset yang memiliki DocumentRoot pada /var/www/super.franky.yyy.com
+**10. Setelah itu, pada subdomain www.super.franky.yyy.com, Luffy membutuhkan penyimpanan aset yang memiliki DocumentRoot pada /var/www/super.franky.yyy.com**
 
 **Solusi**
 
@@ -97,7 +97,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586259374](https://user-images.githubusercontent.com/73151866/139528355-547e2769-6cda-4341-a882-a4d83e486857.jpg)
 
 
-**11.** Akan tetapi, pada folder /public, Luffy ingin hanya dapat melakukan directory listing saja
+**11. Akan tetapi, pada folder /public, Luffy ingin hanya dapat melakukan directory listing saja**
 
 **Solusi**
 
@@ -107,7 +107,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 
 
 
-**12.** Tidak hanya itu, Luffy juga menyiapkan error file 404.html pada folder /error untuk mengganti error kode pada apache
+**12.Tidak hanya itu, Luffy juga menyiapkan error file 404.html pada folder /error untuk mengganti error kode pada apache**
 
 **Solusi**
 
@@ -117,7 +117,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 
 
 
-**13.** Luffy juga meminta Nami untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset www.super.franky.yyy.com/public/js menjadi www.super.franky.yyy.com/js. 
+**13.Luffy juga meminta Nami untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset www.super.franky.yyy.com/public/js menjadi www.super.franky.yyy.com/js. **
 
 **Solusi**
 
@@ -126,7 +126,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586398846](https://user-images.githubusercontent.com/73151866/139528403-b4ecceac-c404-4594-b769-e420912ea6cd.jpg)
 
 
-**14.** Dan Luffy meminta untuk web www.general.mecha.franky.yyy.com hanya bisa diakses dengan port 15000 dan port 15500
+**14.Dan Luffy meminta untuk web www.general.mecha.franky.yyy.com hanya bisa diakses dengan port 15000 dan port 15500**
 
 **Solusi**
 
@@ -135,7 +135,7 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586859652](https://user-images.githubusercontent.com/73151866/139528439-c132a507-7cfa-4574-b0e5-620d2eb0524b.jpg)
 
 
-**15.** Dengan autentikasi username luffy dan password onepiece dan file di /var/www/general.mecha.franky.yyy
+**15. Dengan autentikasi username luffy dan password onepiece dan file di /var/www/general.mecha.franky.yyy**
 
 **Solusi**
 
@@ -143,12 +143,12 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 ![messageImage_1635586920457](https://user-images.githubusercontent.com/73151866/139528442-42c64530-150a-42dd-b086-80e0e089d8b4.jpg)
 
 
-**16.** Dan setiap kali mengakses IP Skypie akan dialihkan secara otomatis ke www.franky.yyy.com
+**16. Dan setiap kali mengakses IP Skypie akan dialihkan secara otomatis ke www.franky.yyy.com**
 
 **Solusi**
 
 
-**17.** Dikarenakan Franky juga ingin mengajak temannya untuk dapat menghubunginya melalui website www.super.franky.yyy.com, dan dikarenakan pengunjung web server pasti akan bingung dengan randomnya images yang ada, maka Franky juga meminta untuk mengganti request gambar yang memiliki substring “franky” akan diarahkan menuju franky.png. Maka bantulah Luffy untuk membuat konfigurasi dns dan web server ini!
+**17.Dikarenakan Franky juga ingin mengajak temannya untuk dapat menghubunginya melalui website www.super.franky.yyy.com, dan dikarenakan pengunjung web server pasti akan bingung dengan randomnya images yang ada, maka Franky juga meminta untuk mengganti request gambar yang memiliki substring “franky” akan diarahkan menuju franky.png. Maka bantulah Luffy untuk membuat konfigurasi dns dan web server ini!**
 
 
 **Solusi**
