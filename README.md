@@ -24,9 +24,9 @@ Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan kete
 
 Melakukan konfigurasi terhadap file  `/etc/bind/named.conf.local` dengan menambahkan  
 ```
-zone "franky.t07.com" {  
+zone "franky.TI4.com" {  
         type master;  
-        file "/etc/bind/kaizoku/franky.t07.com";
+        file "/etc/bind/kaizoku/franky.TI4.com";
 };
 ```  
 Membuat direktori baru yaitu `/etc/bind/kaizoku`  
@@ -122,7 +122,7 @@ konfigurasi file `/etc/apache2/sites-available/franky.TI4.com.conf`. DcumentRoot
 
 **Solusi**
 
-Memberikan Alias dengan konfigurasi file pada `/etc/apache2/sites-available/franky.t07.com.conf` 
+Memberikan Alias dengan konfigurasi file pada `/etc/apache2/sites-available/franky.TI4.com.conf` 
 ![image](https://user-images.githubusercontent.com/73151866/139528480-dc08e0e1-5d78-4bb3-8b92-776d91676fb1.png)
 
 
