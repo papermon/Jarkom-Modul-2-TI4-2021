@@ -12,9 +12,8 @@
 **1.** EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan       Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet
 
 **Solusi**
-
-
 ![messageImage_1635585422759](https://user-images.githubusercontent.com/73151866/139528104-cdabea1a-f176-4771-bd2d-09545fd9fc64.jpg)
+Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan ketentuan soal EniesLobby sebagai DNS Master, Water7 sebagai DNS Slave, Skypie sebagai Web Server, Loguetown dan Alabasta sebagai Client, dan Foosha sebagai router
 
 
 **2.** Luffy ingin menghubungi Franky yang berada di EniesLobby dengan denden mushi. Kalian diminta Luffy untuk membuat website utama dengan mengakses franky.yyy.com dengan alias www.franky.yyy.com pada folder kaizoku
