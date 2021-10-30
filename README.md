@@ -9,7 +9,7 @@
 
 ## **Soal**
 
-**1. EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan       Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet**
+### **1. EniesLobby akan dijadikan sebagai DNS Master, Water7 akan dijadikan DNS Slave, dan Skypie akan digunakan sebagai Web Server. Terdapat 2 Client yaitu Loguetown, dan       Alabasta. Semua node terhubung pada router Foosha, sehingga dapat mengakses internet**
 
 **Solusi**
 ![messageImage_1635585422759](https://user-images.githubusercontent.com/73151866/139528104-cdabea1a-f176-4771-bd2d-09545fd9fc64.jpg)
