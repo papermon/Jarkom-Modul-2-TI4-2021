@@ -13,8 +13,7 @@
 
 **Solusi**
 ![messageImage_1635585422759](https://user-images.githubusercontent.com/73151866/139528104-cdabea1a-f176-4771-bd2d-09545fd9fc64.jpg)
-Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan ketentuan soal EniesLobby sebagai DNS Master, Water7 sebagai DNS Slave, Skypie sebagai Web Server, Loguetown dan Alabasta sebagai Client, dan Foosha sebagai routerez
-
+Gambar diatas adalah topologi jaringan yang sudah disesuaikan sesuai dengan ketentuan soal EniesLobby sebagai DNS Master, Water7 sebagai DNS Slave, Skypie sebagai Web Server, Loguetown dan Alabasta sebagai Client, dan Foosha sebagai router
 
 
 ## **Soal2**
